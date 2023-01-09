@@ -35,11 +35,27 @@ Quicks-App</b> is a Web Application which users can do with todolist and chat bo
 </p>
 
 ## Important Notes
-Use the following command to deploy the Mymovies-app, run the tests and launch the App. Start by cloning the repository:
+For the Custom API, here this project use :
+
+<b>1. ToDoList </b> </br>
+The custom API was built with JSON.Placeholder web, you can read fully the documentation
+```
+https://jsonplaceholder.typicode.com/
+```
+
+Here my own API for todolist box. Note : It will return the response in mockup only (not really saved in database). You can check with Redux Dev Tools Extension.
+```
+https://my-json-server.typicode.com/Dwifakhri/to-do-server/tasks
+```
+
+<b>2. ChatBox </b> </br>
+The custom API was built with dummy.API web, you can read fully the documentation. In this case, the api endpoint is used to get the data of message as below: </br>
+<b>/user </b>  for user who comment </br>
+<b>/comment </b>  for list chat of participants   </br>
+<b>/post </b> for the list of private or group message   </br>
 
 ```
-git clone https://github.com/Dwifakhri/quicks-app.git
-cd nouncer-app
+https://dummyapi.io/
 ```
 
 ## Quick Start
@@ -47,7 +63,7 @@ Use the following command to deploy the Mymovies-app, run the tests and launch t
 
 ```
 git clone https://github.com/Dwifakhri/quicks-app.git
-cd nouncer-app
+cd quicks
 ```
 
 Run the following commands to install the required NPM packages:
